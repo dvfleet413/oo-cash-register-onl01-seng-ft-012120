@@ -15,6 +15,6 @@ class CashRegister
   
   def apply_discount
     binding.pry
-    discount_decimal = (100-@discount)/100
+    discount_decimal = (100-@discount.to_f)/100
   end 
 end 
