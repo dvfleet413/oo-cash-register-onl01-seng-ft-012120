@@ -7,7 +7,7 @@ class CashRegister
     @discount = employee_discount
   end
   
-  def add_item(name, price, quanity = 1)
+  def add_item(name, price, quantity = 1)
     @previous_total = @total
     @total += price * quanity
     quantity.time {@items << name}
