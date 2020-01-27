@@ -5,4 +5,5 @@ class CashRegister
     @discount = employee_discount
   end
   
+  def add_item(name, price)
 end 
